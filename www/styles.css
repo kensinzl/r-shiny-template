@@ -1,0 +1,68 @@
+/* header background */
+.skin-blue .main-header .logo {
+  background-color: #0d2c6c;
+}
+/* default header background hover also same color */
+.skin-blue .main-header .logo:hover {
+  background-color: #0d2c6c;
+}
+
+/* header logo */
+.main-header .logo {
+    text-align: left; 
+    padding-top: 10px; 
+    height: 100px; 
+}
+
+/* header Your Project Name font */
+.main-header .logo #niwa {
+	color: white; 
+	font-size: 40px; 
+	font-weight: bold; 
+}
+/* space setting between NIWA Logo and Your Project Name */
+.main-header .logo #niwa a {
+	padding-right: 20px
+}
+
+/* 
+	original dashboard header height is 50px and now changed in 100px,
+	so now give extra 50px for the side bar let all menu items presentation
+*/
+.sidebar-menu {
+    padding-top: 50px; 
+}
+
+/* footer background */
+.main-footer {
+	background-color: #0d2c6c;
+	text-align: left; 
+	color: white; 
+	font-size: 10px; 
+	font-weight: bold; 
+ 	padding-top: 1px;
+	height: 5px;
+}
+/* footer ul */
+.main-footer ul {
+ 	list-style: none;
+ 	padding-left: 1px;
+}
+
+/* footer li show in a line*/
+.main-footer ul li {
+	display: inline;
+}
+
+/* footer policy */
+.main-footer #policy:hover {
+ 	text-decoration: underline;
+}
+
+/* footer policy font color and left space */
+.main-footer #policy {
+ 	color: white;
+ 	margin-left: 30px;   
+}
+
+
